@@ -1,0 +1,107 @@
+.modalback{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(200, 200, 200,0.7);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0px;
+
+}
+
+.modalcontainer{
+    width: 600px;
+    height: 600px;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+  
+
+}
+.header{
+    background-color: #008938;
+    border-top-right-radius:12px;
+    border-top-left-radius:12px;
+    width: 575px;
+    height: 30px;
+    padding: 21.3px 9.5px 28.7px 15.5px;
+    margin-bottom: 30px;
+    
+}
+  
+  .closeBtn button {
+    float: right;
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .title{
+      color: white;
+      float: left;
+      font-size: 25px;
+      font-family: S-CoreDream-6;
+      font-weight: bold;
+  }
+  
+  .modalContainer .body {
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+    text-align: center;
+  }
+
+  .info{
+    font-weight: 500;
+  }
+  
+.No{
+   
+    font-family: SubwaySansLCG;
+    font-size: 86px;
+    font-weight: 600;
+    line-height: 1.77;
+    text-align: center;
+    color: #008938;
+
+  }
+
+  .okBtn{
+    width: 575px;
+    height: 30px;
+    padding: 21.3px 9.5px 28.7px 15.5px;
+    border-bottom-right-radius:12px;
+    border-bottom-left-radius:12px;
+    background-color: #ffc30d;
+   
+  }
+
+  .ok{
+    width: 89px;
+    height: 63px;
+    font-family: S-CoreDream-6;
+    font-size: 25px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: 2.48px;
+    text-align: center;
+    color: #000;
+  }
+
+  .img{
+      width: 200px;
+      height: 60px;
+    
+  }
+  
+  
+

@@ -1,0 +1,68 @@
+.secModalback{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(200, 200, 200,0.7);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0px;
+    left: 0px;
+}
+
+.secmodalcontainer{
+    width: 400px;
+    height: 300px;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+  
+
+}
+.secheader{
+    background-color: #333;
+    border-top-right-radius:12px;
+    border-top-left-radius:12px;
+    width:375px;
+    height: 18px;
+    padding: 21.3px 9.5px 28.7px 15.5px;
+    margin-bottom:22px;
+    
+    
+}
+
+.secinfo{
+    font-family: S-CoreDream-5;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1.75;
+    text-align: center;
+    color: #000;
+}
+
+
+.secOk{
+    width: 375px;
+    height: 12px;
+    padding: 21.3px 9.5px 28.7px 15.5px;
+    border-bottom-right-radius:12px;
+    border-bottom-left-radius:12px;
+    background-color: #ffc30d;
+   
+  }
+
+  .secok{
+    width: 89px;
+    height: 63px;
+    font-family: S-CoreDream-6;
+    font-size: 25px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: 2.48px;
+    text-align: center;
+    color: #000;
+  }
