@@ -6,12 +6,7 @@ import Clear from './components/Clear';
 import { useState } from 'react';
 
 function App(props) {
-  const [numList, setNumList] = useState([0])
 
-  const onAddNum = () =>{
-    let countArr = [...numList]
-    let counter
-  }
 
 
 return (
@@ -20,6 +15,9 @@ return (
       <Order/>
       <Ing/>
       <Clear/>
+
+    
+  
 
      
     </div>
